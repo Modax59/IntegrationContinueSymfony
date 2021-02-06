@@ -20,6 +20,3 @@ jobs:
     - name: Run phpstan src
       run: ./vendor/bin/phpstan analyse src --level 5
 
-    - name: Run phpstan vendor
-      run: ./vendor/bin/phpstan analyse vendor --level 5
-
